@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project4_2</string>
+    <string name="title_activity_main">안드로이드 사진 보기</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="textAndroid">좋아하는 안드로이드 버전은?</string>
+    <string name="textOero">Oero (8.0)</string>
+    <string name="textPie">Pie (9.0)</string>
+    <string name="textQ">Q (10.0)</string>
+    <string name="switchStart">시작함</string>
+    <string name="textStart">선택을 시작 하시겠습니까?</string>
+    <string name="btnExit">종료</string>
+    <string name="btnReset">처음부터</string>
+</resources>

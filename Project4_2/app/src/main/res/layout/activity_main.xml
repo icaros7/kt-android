@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textStart"
+        android:textSize="20dp" />
+
+    <Switch
+        android:id="@+id/Switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switchStart" />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textAndroid"
+        android:textSize="20dp"
+        android:visibility="invisible" />
+
+    <RadioGroup
+        android:id="@+id/Rgroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" >
+
+        <RadioButton
+            android:id="@+id/RdoOero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textOero" />
+
+        <RadioButton
+            android:id="@+id/RdoPie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textPie" />
+
+        <RadioButton
+            android:id="@+id/RdoQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textQ" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/ImgAnd"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_margin="10dp"
+        android:text="@string/btnExit" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_margin="10dp"
+        android:text="@string/btnReset" />
+</LinearLayout>
