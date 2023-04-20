@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16pt"
+            android:text="@string/textView1"/>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_alignTop="@id/textView1"
+            android:layout_toRightOf="@id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editText1"
+            android:textSize="13pt" />
+
+        <Button
+            android:id="@+id/btnSummit"
+            android:layout_toLeftOf="@id/btnCancel"
+            android:layout_below="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/btnSummit" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_below="@id/editText1"
+            android:layout_alignRight="@id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/btnCancel" />
+    </RelativeLayout>
+
+</LinearLayout>
